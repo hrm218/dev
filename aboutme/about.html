@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>@Mateiasul</title>
+    <style>
+        body{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+            width: 1024px;
+            margin: 0 auto;
+        }
+        #about, #work{
+            height: 100vh;
+        }
+        .aboutitle, #bio, .banner, #goodvibes{
+            display: flex;
+            width:100%;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        #bioleft, #bioright{
+            width: 50%;
+        }
+        .imgholder{
+            width: 250px;
+            margin: 0 auto;
+        }
+        .imgholder img{
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .banner, .aboutitle, #goodvibes {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.75em;
+        }
+        .bio, #education{
+            font-family: 'Playfair Display', serif;
+            font-size: 1em;
+        }
+        .workpalce, #interests{
+            font-family: "Courier New";
+            font-size: 1em;
+        }
+        .worktitle, .title, .edutitle, .skltitle{
+            font-size: 1.25em;
+            display: inline-block;
+            padding: 5px 0;
+            width: 100%;
+            padding: 3px;
+            font-weight: bold;
+
+        }
+        .edutitle{
+            font-weight: normal;
+        }
+        .workperiod, .eduperiod{
+            padding: 5px 0;
+            display: inline-block;
+            background: lightcoral;
+            padding: 3px;
+        }
+        .education, .skills{
+            margin: 50px 0;
+        }
+        .word{
+            color: cornflowerblue;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header id="about">
+            <div class="aboutitle">Hi there, I'm Matthew and&nbsp;<span class="word"> I enjoy coding :)</span></div>
+        </header>
+        <section id="bio">
+            <aside id="bioleft">
+                <div class="imgholder">
+                    <img src="profilep.jpg" alt="profile picture" width="auto" height="auto">
+                </div>
+            </aside>
+            <article id="bioright">
+                <span class="title">About</span>
+                <p class="bio">
+                    I believe that, I adapt myself to new places and situations quickly and understand how a process enrolls and develop new ways to improve it. I successfully combined my studies with work, showing myself to be self-motivated, organized and capable of delivering under pressure.
+                    <br><br>
+                    Recently discovering a strong interest in programming, I enrolled in multiple courses, some online. My aim is to become a knowledgeable web developer, both front and back end.
+                    <br><br>
+                    I'm still at the beginning of the road, still so much to learn. But I'm eager, motivated to do so. I have a clear, logical mind with a practical approach to problem solving and a drive to see things through to completion.
+                </p>
+            </article>
+        </section>
+        <div class="banner">Places I've worked...&nbsp;<span class="word"> and learned from</span></div>
+        <section id="work">
+            <article class="workpalce">
+                <span class="worktitle">Proud Dad of two :)</span>
+                <span class="workperiod">From 2017, 2019 To Forever</span>
+                    <p class="abtwork">
+                       This has been the hardest challenge I've ever faced.. so terrifying, yet so rewarding and satisfying to learn from each other :)
+                    </p>
+            </article>
+            <article class="workpalce">
+                <span class="worktitle">Customer Care Advocate & Specialist, Account Executive @ Amoma.com</span>
+                <span class="workperiod">From 08/2016 To 10/2018</span>
+                    <ul class="ulabtwork">
+                        <li>Researching ways to optimize booking processes between accounts</li>
+                        <li>Establishing relations and integrating new accounts (b2b)</li>
+                        <li>Providing monthly feedback regarding bookings</li>
+                        <li>Generating solutions together with all parties involved in solving all types of issues</li>
+                        <li>Responsible for all pre-travel inquires</li>
+                        <li>Continuously working on improving agent-client communication</li>
+                    </ul>
+            </article>
+            <article class="workpalce">
+                <span class="worktitle">Customer Care Advocate @ CGS Romania</span>
+                <span class="workperiod">From 09/2014 To 03/2015</span>
+                    <ul class="ulabtwork">
+                        <li>Taking calls from customer and assisting them with questions related to post-sale issues</li>
+                        <li>Creating follow-ups in the systems in order to ensure issue resolution</li>
+                        <li>Making call-backs to customers to verify if issues was resolved and there are not any other pending issues</li>
+                        <li>Self-monitoring results and metrics in order to verify performance and improvement</li>
+                    </ul>
+            </article>
+            <article class="workpalce">
+                <span class="worktitle">Financial and Online Officer @ VIP - Studentul Anului</span>
+                <span class="workperiod">From 10/2013 To 05/2014</span>
+                <p class="abtwork">
+                    During the time I spent organizing this competition, I have traveled across the country to meet the best students in their fields and convince them to join. Also, I have helped with the managing of the team, always creating and maintaining a positive and cheerful mood. I have gained experience in organizing public events and conferences.
+                </p>
+            </article>
+        </section>
+        <div class="banner">Educational&nbsp;<span class="word">background</span></div>
+        <section id="education">
+            <article class="education">
+                <span class="edutitle">Bachelor's degree: Economics @ Bucharest University of Economic Studies (ASE) | Accounting and Management Information Systems</span>
+                <span class="eduperiod">From 10/2018 To Present</span>
+            </article>
+            <article class="education">
+                <span class="edutitle">High school diploma @ Cambridge School of Bucharest</span>
+                <span class="eduperiod">From 09/2012 To 06/2013</span>
+            </article>
+            <article class="education">
+                <span class="edutitle">IGCSE - International General Certificate of Secondary Education @ Britannica International School of Budapest</span>
+                <span class="eduperiod">2011</span>
+            </article>
+        </section>
+        <div class="banner">... and the&nbsp;<span class="word">finishing touches</span></div>
+        <section id="interests">
+            <article class="skills">
+                <span class="skltitle">Digital Skills</span>
+                <ul class="ulskl">
+                    <li>HTML / CSS / Javascript | Junior</li>
+                    <li>PHP | Basic</li>
+                    <li>MySQL | Basic</li>
+                    <li>WordPress | Basic</li>
+                    <li>Social Media Account Management | Basic</li>
+                    <li>Microsoft Office | Advanced</li>
+                </ul>
+            </article>
+            <article class="skills">
+                <span class="skltitle">Communication & Organizational Skills</span>
+                <ul class="ulskl">
+                    <li>Project Planning</li>
+                    <li>Time Management</li>
+                    <li>Punctual</li>
+                    <li>Ability to work independently and in a team</li>
+                    <li>Ability to adapt in any work environment</li>
+                </ul>
+            </article>
+            <article class="skills">
+                <span class="skltitle">Authorized translator and interpreter by the Ministery of Justice, Romania</span>
+            </article>
+            <article class="skills">
+                <span class="skltitle">Driving license | Category B</span>
+            </article>
+        </section>
+        <footer id="goodvibes">
+            <span class="word"> I believe we're all never ready for everything, just prepared to learn anything.</span>
+        </footer>
+    </div>
+</body>
+</html>
