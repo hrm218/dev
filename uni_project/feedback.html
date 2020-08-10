@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="container">
+    <header id="head">
+        <aside class="logo">
+            <div class="img">
+                <a href="index.html">
+                    <img src="imgs/logo.png" alt="mylogo" height="50px" width="auto">
+                </a>
+            </div>
+        </aside>
+        <section class="intro">
+            <ul>
+                <li><a class="alink" target="_blank" href="acasa.html">De acasa</a></li>
+                <li><a class="alink" target="_blank" href="cv.html">CV</a></li>
+                <li><a class="alink" target="_blank" href="liste.html">Liste</a></li>
+                <li><a class="alink" target="_blank" href="tabele.html">Tabele</a></li>
+                <li><a class="alink" target="_blank" href="harta.html">Harta</a></li>
+                <li><a class="alink" target="_blank" href="feedback.html">Feedback</a></li>
+            </ul>
+        </section>
+    </header>
+</div>
+<section id="anchors">
+    <div class="ancholder">
+        <span class="htmtitle">Feedback: Ce as schimba eu :)</span><br>
+        <span class="towards">Catre [Ancore] :</span>
+        <a class="anchlink" href="#fp1">Inregistrare date</a>
+        <a class="anchlink" href="#fp2">Info Facultate</a>
+        <a class="anchlink" href="#fp3">Meniu</a>
+        <a class="anchlink" href="#fp4">Confirmare</a>
+    </div>
+</section>
+<main id="incontainer">
+    <form class="formholder" action="rezultat.html" method="post" target="_blank">
+        <div id="fp1">
+            <h3 style="font-style:italic; color: orange;">Partea I - Inregistrare date personale</h3>
+            <label style="display: inline-block; width: 150px;" for="nume">Nume:</label>
+            <input type="text" id="nume" name="nume" minlength="3" placeholder="Min 3 caractere"><br><br>
+            <label style="display: inline-block; width: 150px;" for="prenume">Prenume:</label>
+            <input type="text" id="prenume" name="prenume" maxlength="25" placeholder="Max 25 caractere"><br><br>
+            <label style="display: inline-block; width: 150px;" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Format: abc@def.com"><br><br>
+            <label style="display: inline-block; width: 150px;" for="tel">Prenume:</label>
+            <input type="text" id="tel" name="tel" maxlength="10" placeholder="Format: 07***"><br>
+        </div>
+        <div id="fp2">
+            <h3 style="font-style:italic; color: orange;">Partea II - Informatii Facultate</h3>
+            <label style="display: inline-block; width: 150px;" for="facultate">Facultatea curenta</label>
+            <select id="facultatea" name="facultatea">
+                <option value="CIG">Facultatea de Contabilitate si Informatica de Gestiune</option>
+                <option value="FABIZ">Facultatea de Administrarea Afacerilor, cu predare in limbi straine</option>
+                <option value="FAPN">Facultatea de Administratie si Management Public</option>
+                <option value="BT">Facultatea de Business si Turism</option>
+                <option value="CSIE">Facultatea de Cibernetica, Statistica si Informatica Economica</option>
+                <option value="alta">Alta Facultate</option>
+            </select>
+            <br><br>
+            <label style="display: inline-block; width: 150px;" for="tel">An studiu:</label>
+            <input type="radio" name="op">Licenta - I
+            <input type="radio" name="op">Licenta - II
+            <input type="radio" name="op">Licenta - III
+            <input type="radio" name="op">Master - I
+            <input type="radio" name="op">Master - II
+            <br><br>
+            <label style="display: inline-block; width: 150px;" for="cant">Cantina preferata:</label>
+            <input type="checkbox" name="moxa">Moxa
+            <input type="checkbox" name="cihoschi">Cihoschi
+            <br>
+        </div>
+        <div id="fp3">
+            <h3 style="font-style:italic; color: orange;">Partea III - Preferinte Meniu</h3>
+            <label style="display: inline-block; width: 150px;" for="tip">Tip mancare preferata:</label>
+            <input type="checkbox" name="moxa">Ciorbe, supe și gustări
+            <input type="checkbox" name="cihoschi">Fel principal
+            <input type="checkbox" name="cihoschi">Desert
+            <h4>Creaza-ti meniul preferat</h4>
+            <table border="1px" style="border-collapse: collapse;">
+                <tr height="100px">
+                    <td style="text-align: center;" width="175px;">
+                        Ciorbe, supe și gustări
+                    </td>
+                    <td width="275px;">
+                        <input type="radio" name="m1">Supă de găină cu tăiței de casă<br>
+                        <input type="radio" name="m1">Fasole făcăluită<br>
+                        <input type="radio" name="m1">Supă cremă de legume<br>
+                    </td>
+                </tr>
+                <tr height="100px">
+                    <td style="text-align: center;">
+                        Fel principal
+                    </td>
+                    <td>
+                        <input type="radio" name="m2">Ceafă de porc la grătar<br>
+                        <input type="radio" name="m2">Ciocănele de pui la cuptor<br>
+                        <input type="radio" name="m2">Mititei<br>
+                    </td>
+                </tr>
+                <tr height="100px">
+                    <td style="text-align: center;">
+                        Garnituri
+                    </td>
+                    <td>
+                        <input type="radio" name="m3">Cartofi țărănești cu cimbru și usturoi<br>
+                        <input type="radio" name="m3">Cartofi proaspăt prăjiți<br>
+                        <input type="radio" name="m3">Orez cu legume<br>
+                    </td>
+                </tr>
+                <tr height="100px">
+                    <td style="text-align: center;">
+                        Salate
+                    </td>
+                    <td>
+                        <input type="radio" name="m4">Salată de varză albă<br>
+                        <input type="radio" name="m4">Salată de varză murată<br>
+                        <input type="radio" name="m4">Salată de roșii și castraveți<br>
+                    </td>
+                </tr>
+                <tr height="100px">
+                    <td style="text-align: center;">
+                        Desert
+                    </td>
+                    <td>
+                        <input type="radio" name="m5">Plăcintă cu brânză<br>
+                        <input type="radio" name="m5">Tort de mere<br>
+                        <input type="radio" name="m5">Tortul casei-tortul copilăriei<br>
+                    </td>
+                </tr>
+            </table>
+            <label for="sugestii"><h4>Sugestii</h4></label>
+            <textarea id="sugestii" rows="4" cols="50" placeholder="Parerea ta conteaza..."></textarea>
+        </div>
+        <div id="fp4">
+            <h3 style="font-style:italic; color: orange;">Partea IV - Confirma</h3>
+            <input type="submit" value="Inregistreaza!">
+            <input type="reset" value="Reset!">
+        </div>
+    </form>
+</main>
+</body>
+</html>

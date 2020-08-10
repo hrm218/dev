@@ -1,0 +1,712 @@
+ /* proiect main */
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    /*background: url(bk2.jpg) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+#container{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    background: white;
+    margin: 0;
+    border-bottom: 2px solid orangered;
+}
+
+#incontainer{
+    clear: both;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#head{
+    clear: both;
+    margin: 0px auto;
+    padding: 25px 0;
+    height: 50px;
+    width: 1024px;
+
+}
+
+.logo{
+    min-width: 512px;
+    width: 512px;
+    float: left;
+    /*background: green;*/
+    height: 50px;
+}
+
+.img{
+    width: 50px;
+    margin: 0 auto;
+}
+
+.intro{
+    min-width: 500px;
+    width: 500px;
+    margin: 0 0 0 12px;
+    /*background: red;*/
+    height: 50px;
+    box-sizing: border-box;
+    /*padding: 10px;*/
+    font-size: 20px;
+    font-family: "Courier New";
+    float: left;
+}
+
+.intro ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.intro ul li{
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: bolder;
+    display: inline-block;
+    line-height: 50px;
+    /*border: 2px solid black;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+.alink{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border-bottom: 2px solid white;
+    box-sizing: border-box;
+}
+
+.alink:hover{
+    text-decoration: none;
+    color: blue;
+    border-bottom: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.alink:active{
+    text-decoration: none;
+    color: blue;
+    border-bottom: 2px solid blue;
+    box-sizing: border-box;
+}
+
+.alink:visited{
+    text-decoration: none;
+    /*color: black;*/
+    box-sizing: border-box;
+}
+
+ /* proiect main */
+
+/* index diverse */
+
+.main{
+    min-width: 500px;
+    margin: 0 12px 0 0;
+    float: left;
+    /*background: white;*/
+    height: 412px;
+    /*border: 1px solid lightgrey;*/
+    box-sizing: border-box;
+    /*box-shadow: 5px 5px lightgrey;*/
+    padding: 10px;
+    font-size: 24px;
+    font-family: "MS Gothic";
+    color: black;
+    display: table;
+
+}
+
+main{
+
+}
+
+.pmain{
+    padding: 0;
+    margin: auto;
+    height: 138px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+.secimg{
+    background-image: url(bo.png);
+    background-repeat: no-repeat;
+    min-width: 512px;
+    float: left;
+    height: 412px;
+    object-fit: contain;
+    /*border: 1px solid lightgrey;*/
+    /*box-shadow: 5px 5px lightgrey;*/
+    box-sizing: border-box;
+}
+
+/* index diverse */
+
+ /* acasa diverse*/
+
+ .htmtitle{
+     font-family: "MS Gothic";
+     font-size: 46px;
+     display: inline-block;
+     /*color: orangered;*/
+ }
+
+ #anchors{
+     clear: both;
+     width: 1024px;
+     margin: 15px auto;
+     background: #F5F5F5;
+     border: 1px solid lightgrey;
+     box-shadow: 5px 5px lightgrey;
+     padding: 15px 0;
+     box-sizing: border-box;
+     font-family: "Courier New", monospace;
+     font-size: 16px;
+     /*font-weight: bold;*/
+     /*border-bottom: 1px solid black;*/
+ }
+
+ .ancholder{
+     box-sizing: border-box;
+     padding: 0 25px;
+ }
+
+ .towards{
+
+ }
+
+ .anchlink{
+     color: blue;
+     text-decoration: none;
+ }
+
+ .anchlink:hover{
+     color: blue;
+     text-decoration: underline;
+ }
+
+ .ptitle{
+     font-size: 26px;
+     padding: 10px 15px;
+     border-bottom: 1px solid black;
+     border-top: 1px solid black;
+     /*background: yellow;*/
+     box-sizing: border-box;
+ }
+
+#p1{
+    clear: both;
+}
+ .imghldr{
+     width: 256px;
+     display: inline-block;
+     box-sizing: border-box;
+     float: left;
+     /*border: 1px solid black;*/
+     margin: 20px 0 20px 0;
+ }
+
+.pp1{
+    font-size: 20px;
+    font-family: Gabriola;
+    padding: 5px;
+    margin: 20px 0 20px 18px;
+    display: inline-block;
+    width: 750px;
+    box-sizing: border-box;
+    float: left;
+    /*border: 1px solid black;*/
+}
+
+ #p2{
+     clear: both;
+ }
+ .imghldr2{
+     width: 356px;
+     display: inline-block;
+     box-sizing: border-box;
+     float: left;
+     margin: 20px 0 20px 0;
+ }
+
+ .pp2{
+     font-size: 20px;
+     font-family: Gabriola;
+     padding: 5px;
+     margin: 20px 18px 20px 0;
+     display: inline-block;
+     width: 650px;
+     box-sizing: border-box;
+     float: left;
+     background: #F8F8F8;
+     border: 1px solid lightgrey;
+     box-shadow: 2px 2px lightgrey;
+ }
+
+ #p3{
+     clear: both;
+ }
+
+ .pp3{
+     font-size: 20px;
+     font-family: Gabriola;
+     padding: 5px;
+     margin: 20px 0 20px 18px;
+     display: inline-block;
+     width: 750px;
+     box-sizing: border-box;
+     float: left;
+     /*border: 1px solid black;*/
+ }
+
+ .imghldr3{
+     width: 256px;
+     display: inline-block;
+     box-sizing: border-box;
+     float: left;
+     /*border: 1px solid black;*/
+     margin: 20px 0 20px 0;
+ }
+
+ #p4{
+     clear: both;
+ }
+
+ .pp4{
+     font-size: 20px;
+     font-family: Gabriola;
+     padding: 5px;
+     margin: 20px 18px 20px 0;
+     display: inline-block;
+     width: 650px;
+     box-sizing: border-box;
+     float: left;
+     background: #F8F8F8;
+     border: 1px solid lightgrey;
+     box-shadow: 2px 2px lightgrey;
+ }
+
+ .imghldr4{
+     width: 356px;
+     display: inline-block;
+     box-sizing: border-box;
+     float: left;
+     margin: 20px 0 20px 0;
+     /*border: 1px solid black;*/
+ }
+
+ /* acasa diverse */
+
+ /* cv diverse */
+
+ #tb1{
+     margin: 25px 0 50px 0;
+     /*border: 1px solid blue;*/
+ }
+
+ .tb1title{
+     margin: 0 auto 50px auto;
+     /*border-bottom: 1px solid lightgrey;*/
+     width: 100%;
+     text-align: center;
+     box-sizing: border-box;
+     padding: 5px;
+     font-family: Complex;
+     font-size: 34px;
+ }
+
+ .imghldrtb1{
+     width: 150px;
+     margin: 0 auto 25px auto;
+ }
+
+ .imgtb1{
+     width: 150px;
+     margin: 0 auto;
+ }
+
+ .pholder{
+     margin: 0 auto 25px auto;
+     /*border: 1px solid red;*/
+     width: 750px;
+     text-align: center;
+     box-sizing: border-box;
+     padding: 5px;
+     font-size: 22px;
+     font-style: italic;
+ }
+
+ #tb2{
+     margin: 0 0 50px 0;
+     /*border: 1px solid yellow;*/
+ }
+
+ #tb2 table{
+     border-collapse: collapse;
+     width: 100%;
+     text-align: center;
+     font-family: "Courier New";
+     font-size: 14px;
+    cursor: pointer;
+ }
+
+ #tb2 table tr{
+    height: 100px;
+ }
+
+ #tb2 table tr td{
+     /*border: 1px solid lightgrey;*/
+     width: 20%;
+     box-sizing: border-box;
+     padding: 5px;
+ }
+
+ .tbstudii{
+     border-right: 2px solid lightblue;
+     /*color: #1e347b;*/
+     /*background: #cccccc;*/
+ }
+
+ .tbani{
+     border-right: 2px solid lightblue;
+     /*color: #1e347b;*/
+     font-weight: bold;
+
+ }
+
+ .tbani:hover{
+     background: #cccccc;
+ }
+
+ .tbscoala{
+     border-right: 2px solid lightblue;
+     /*color: #1e347b;*/
+
+ }
+
+ .tbscoala:hover{
+     background: #cccccc;
+ }
+
+ .tbnumes{
+     border-right: 2px solid lightblue;
+     /*color: #1e347b;*/
+     font-weight: bold;
+ }
+
+ .tbnumes:hover{
+     background: #cccccc;
+ }
+
+ .tbach{
+     /*color: #1e347b;*/
+ }
+
+
+ #tb3{
+     margin: 0 0 50px 0;
+     /*border: 1px solid red;*/
+     font-family: "Courier New";
+     font-size: 14px;
+ }
+
+ #tb3 table{
+     border-collapse: collapse;
+     width: 100%;
+     text-align: center;
+     cursor: pointer;
+ }
+
+ #tb3 table tr{
+     height: 100px;
+ }
+
+ #tb3 table tr td{
+     /*border: 1px solid lightgrey;*/
+     width: 20%;
+     box-sizing: border-box;
+     padding: 5px;
+ }
+
+ #tb4{
+     margin: 0 0 50px 0;
+     text-align: center;
+     box-sizing: border-box;
+     padding: 5px;
+     font-size: 22px;
+ }
+
+ /* cv diverse */
+
+ /* feedback diverse */
+
+ .formholder{
+     /*border: 1px solid black;*/
+     width: 620px;
+     margin: 25px auto 75px auto;
+     font-family: Arial;
+ }
+
+ .feedbackp{
+     margin: 50px auto 0 auto;
+     padding: 0;
+     font-family: Arial;
+     font-size: 30px;
+     /*border: 1px solid black;*/
+     width: 550px;
+ }
+
+ /* feedback diverse */
+
+ /* liste diverse */
+
+
+ #lt2{
+     margin: 0 0 50px 0;
+     padding: 10px;
+     box-sizing: border-box;
+     font-family: Gabriola;
+     font-size: 20px;
+ }
+
+ #lt1a{
+     margin-bottom: 25px;
+ }
+
+ #lt1b{
+     margin-bottom: 25px;
+ }
+
+ #lt1c{
+     margin-bottom: 25px;
+ }
+
+ .lmintitle{
+     font-size: 24px;
+     display: inline-block;
+     width: 100%;
+ }
+
+ .ltitle{
+border-bottom: 1px solid lightgrey;
+     display: inline-block;
+     width: 100%;
+     padding: 5px;
+     box-sizing: border-box;
+     font-size: 30px;
+ }
+
+ .m1{
+
+ }
+
+ .m2{
+     list-style-type: circle;
+ }
+
+ .m3{
+     list-style-type: square;
+ }
+
+ .m11{
+
+ }
+
+ .m12{
+     list-style-type: upper-roman;
+ }
+
+ .m13{
+     list-style-type: upper-alpha;
+ }
+
+
+ /* liste diverse */
+
+ /* tabele diverse */
+
+ .desc{
+     font-family: "MS Gothic";
+     font-size: 14px;
+ }
+
+ #eat{
+
+ }
+
+ #eat table{
+     border-collapse: collapse;
+     width: 1024px;
+     text-align: center;
+     font-family: Arial;
+     font-size: 14px;
+ }
+
+ #eat table tr{
+     height: 100px;
+ }
+
+ #eat table tr:first-child{
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr:nth-child(2){
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr:nth-child(3){
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr:nth-child(4){
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr:nth-child(5){
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr:nth-child(6){
+     height: 100px;
+     border-bottom: 2px dotted lightblue;
+ }
+
+ #eat table tr td{
+     width: 25%;
+     padding: 5px;
+     box-sizing: border-box;
+ }
+
+ #eat table tr td:first-child{
+     border-right: 2px dashed lightblue;
+ }
+
+ #eat table tr td:nth-child(2){
+     border-right: 2px dashed lightblue;
+ }
+
+ #eat table tr td:nth-child(3){
+     border-right: 2px dashed lightblue;
+ }
+
+ #exercise{
+    margin: 0 0 50px 0;
+ }
+
+ #exercise table{
+border-collapse: collapse;
+     width: 1024px;
+     text-align: center;
+     font-family: Arial;
+     font-size: 14px;
+ }
+
+ #exercise table tr{
+     height: 100px;
+ }
+
+ #exercise table tr td{
+     width: 25%;
+     padding: 5px;
+     box-sizing: border-box;
+ }
+
+ .tb11title{
+     font-family: "MS Gothic";
+     font-size: 20px;
+     margin: 25px 0 25px 0;
+     border-top: 1px solid lightgrey;
+     border-bottom: 1px solid lightgrey;
+     padding: 10px 0;
+ }
+
+ /* tabele diverse */
+
+ /* harta diverse */
+
+ #harta{
+     width: 768px;
+     margin: 0 auto;
+ }
+
+ #roharta{
+
+ }
+
+ #infobuc{
+     font-family: "Courier New";
+     font-size: 16px;
+     border: 1px dashed black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0 0 50px 0;
+ }
+
+ #infocluj{
+     font-family: "Courier New";
+     font-size: 16px;
+     border: 1px dashed black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0 0 50px 0;
+ }
+
+ #infosibiu{
+     font-family: "Courier New";
+     font-size: 16px;
+     border: 1px dashed black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0 0 50px 0;
+ }
+
+ #infobacau{
+     font-family: "Courier New";
+     font-size: 16px;
+     border: 1px dashed black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0 0 50px 0;
+ }
+ #infoconst{
+     font-family: "Courier New";
+     font-size: 16px;
+     border: 1px dashed black;
+     padding: 10px;
+     box-sizing: border-box;
+     margin: 0 0 50px 0;
+ }
+
+ .infocitytitle{
+     font-family: Gabriola;
+     font-size: 28px;
+     border-bottom: 1px solid grey;
+     display: inline-block;
+     width: 100%;
+ }
+
+ /* harta diverse */
+
+
+
