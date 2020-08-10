@@ -3,78 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>@Mateiasul</title>
-    <style>
-        body{
-            width: 100%;
-            padding: 0;
-            margin: 0;
-        }
-        #container{
-            width: 1024px;
-            margin: 0 auto;
-        }
-        #about, #work{
-            height: 100vh;
-        }
-        .aboutitle, #bio, .banner, #goodvibes{
-            display: flex;
-            width:100%;
-            height: 100vh;
-            justify-content: center;
-            align-items: center;
-        }
-        #bioleft, #bioright{
-            width: 50%;
-        }
-        .imgholder{
-            width: 250px;
-            margin: 0 auto;
-        }
-        .imgholder img{
-            width: 250px;
-            height: 250px;
-            object-fit: cover;
-            border-radius: 50%;
-        }
-        .banner, .aboutitle, #goodvibes {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 2.75em;
-        }
-        .bio, #education{
-            font-family: 'Playfair Display', serif;
-            font-size: 1em;
-        }
-        .workpalce, #interests{
-            font-family: "Courier New";
-            font-size: 1em;
-        }
-        .worktitle, .title, .edutitle, .skltitle{
-            font-size: 1.25em;
-            display: inline-block;
-            padding: 5px 0;
-            width: 100%;
-            padding: 3px;
-            font-weight: bold;
-
-        }
-        .edutitle{
-            font-weight: normal;
-        }
-        .workperiod, .eduperiod{
-            padding: 5px 0;
-            display: inline-block;
-            background: lightcoral;
-            padding: 3px;
-        }
-        .education, .skills{
-            margin: 50px 0;
-        }
-        .word{
-            color: cornflowerblue;
-        }
-    </style>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <div id="container">
@@ -84,7 +15,7 @@
         <section id="bio">
             <aside id="bioleft">
                 <div class="imgholder">
-                    <img src="profilep.jpg" alt="profile picture" width="auto" height="auto">
+                    <img src="media/profilep.jpg" alt="profile picture" width="auto" height="auto">
                 </div>
             </aside>
             <article id="bioright">
@@ -183,7 +114,7 @@
             </article>
         </section>
         <footer id="goodvibes">
-            <span class="word"> I believe we're all never ready for everything, just prepared to learn anything.</span>
+            <div class="aboutitle">I believe we're never ready for anything, <span class="word">just eager to learn everything.</span></div>
         </footer>
     </div>
 </body>

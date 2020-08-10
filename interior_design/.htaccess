@@ -1,0 +1,2 @@
+RewriteEngine on
+ErrorDocument 404   http://192.168.33.55/dev/interior_design/404.html
